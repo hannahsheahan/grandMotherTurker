@@ -42,6 +42,7 @@ public class AnswerButtonPoolControl : MonoBehaviour {
             SetupAnswerButtons();   // Note: this should happen just once per trial attempt
         }
         mostRecentState = currentState;
+
     }
 
     // ********************************************************************** //

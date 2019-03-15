@@ -294,7 +294,7 @@ public class ExperimentConfig
         QuestionData questiondata = new QuestionData(nPossibleAnswers);
 
         answerOrder = rand.Next(nPossibleAnswers);
-        questiondata.questionText = "This is a practice question. Do you understand how to submit your confidence level in your response?";
+        questiondata.questionText = "This is a practice question. Do you understand how to select and submit your answer to each question?";
         questiondata.stimulus = "";
         questiondata.answers[answerOrder].answerText = "yes";  //H1
         questiondata.answers[1 - answerOrder].answerText = "no";  //H0
@@ -306,7 +306,7 @@ public class ExperimentConfig
         questiondata = new QuestionData(nPossibleAnswers);
 
         answerOrder = rand.Next(nPossibleAnswers);
-        questiondata.questionText = "This is a practice question. Do you think this 3am code is probably filled with bugs?";
+        questiondata.questionText = "This is a practice question. Do you understand how to adjust your confidence level in your response?";
         questiondata.stimulus = "";
         questiondata.answers[answerOrder].answerText = "yes";  //H1
         questiondata.answers[1 - answerOrder].answerText = "no";  //H0
@@ -339,12 +339,18 @@ public class ExperimentConfig
         questiondata = new QuestionData(nPossibleAnswers);
 
         answerOrder = rand.Next(nPossibleAnswers);
-        questiondata.questionText = "Participants are shown a container in the shape of a cup which is wider at the base than at the opening. \nParticipants perceive the container as being more volumnious (i.e. able to hold more liquid) when it is...";
+        questiondata.questionText = "Participants are shown a container in the shape of a cup which is wider at the base than at the opening. Participants perceive the container as being more volumnious (i.e. able to hold more liquid) when it is...";
         questiondata.stimulus = "";
         questiondata.answers[answerOrder].answerText = "the right way up"; //H1
         questiondata.answers[1 - answerOrder].answerText = "upside down";  //H0
         questiondata.answers[answerOrder].isCorrect = true;
         allQuestions.Add(questiondata);
+
+
+
+
+
+
 
     }
 
