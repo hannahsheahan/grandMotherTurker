@@ -75,7 +75,7 @@ public class AnswerButton : MonoBehaviour
 
     public void RecordChoiceOnClick()
     {
-        //source.PlayOneShot(buttonClickSound, 1F);
+        source.PlayOneShot(buttonClickSound, 1F);
         GameController.control.RecordChoice(answerText.text); // Submit the selected answer 
     }
 

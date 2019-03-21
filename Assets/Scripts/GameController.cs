@@ -62,7 +62,7 @@
     {         Debug.Log("Choice selected: " + choice);         whichChoiceMade = choice;       // record the choice         choiceRecorded = true;     }     // ********************************************************************** //
 
     public void RecordSliderValue(float value)
-    {         Debug.Log("Slider value changed.");         confidence = value;       // record the choice         sliderChoiceMade = true;     } 
+    {         //Debug.Log("Slider value changed.");         confidence = value;       // record the choice         sliderChoiceMade = true;     } 
     // ********************************************************************** //
      public void EnableCursor(bool enable)      {         // Note that cursor locking (and respective resetting of cursor to the screen centre) using CursorLockMode.Locked         // works well in the Unity Editor but will not work when run in a browser, unless triggered by a button press.         // This is a browser security issue and does not seem to have an obvious work-around, so the cursor will reappear where it last was.         // Note: ***HRS one work-around could be to use keyboard arrow/Enter button input for gameplay instead of a mouse. 
         bool isLocked;         if (enable)          {             Cursor.lockState = CursorLockMode.None;             Cursor.visible = true;

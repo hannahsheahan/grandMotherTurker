@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-/Users/hannahsheahan/Documents/Postdoc/Unity/grandMotherTurkerTest/Builds/pilot_1_2
+/Users/hannahsheahan/Documents/Postdoc/Unity/grandMotherTurkerTest/Builds/pilot_launch
 SceneListBegin?
 Assets/Scenes/Persistent.unity
 Assets/Scenes/BeforeStartingScreen.unity

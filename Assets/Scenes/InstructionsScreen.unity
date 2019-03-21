@@ -463,18 +463,17 @@ MonoBehaviour:
     two options. \n\n2. Consider the description of each experiment carefully. If,
     after reading the experiment description, you don't understand the question the
     experiment is trying to answer, click the red \"I don't understand\" button to
-    skip to the next question:\n\n\n\n3.   On each trial you will be required to wait
-    for several seconds before responding. This is to give you time to start reading
-    and considering the question. After the 'beep' sound, the mouse will become active
-    and you will be required to select the outcome of the experiment that you think
+    skip to the next question:\n\n\n\n3.   Take your time on each trial to properly
+    read and consider the question. After the 'beep' sound, the mouse will become
+    active and you will have to select the outcome of the experiment that you think
     is most likely. Take your time deciding.\n\n4.   You are also required to estimate
     how confident you are that the outcome you selected will be found by the experiment.
-    Adjust the slider on the right of the screen to indicate your confidence in your
-    decision.\n\n5.   Once you have selected the outcome you think is most likely,
-    and adjusted the confidence slider appropriately, submit your answer and move
-    to the next question by pressing the green \"submit\" button:\n\n\n\n\n\n6.  If
-    the timer runs out, the experiment will move on and you will be asked to answer
-    the question later.\n\n7.  You will start with 2 practice trials to familiarise
+    Adjust the slider on the right of the screen to indicate how confident you are
+    in your decision.\n\n5.   Once you have selected the outcome you think is most
+    likely, and adjusted the confidence slider appropriately, submit your answer and
+    move to the next question by pressing the green \"submit\" button:\n\n\n\n\n\n\n6.
+    \ If the timer runs out, the experiment will move on and you will be asked to
+    answer the question later.\n\n7.  You will start with 2 practice trials to familiarise
     yourself with the setup.\n"
 --- !u!222 &354247045
 CanvasRenderer:
